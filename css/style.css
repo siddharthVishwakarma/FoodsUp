@@ -56,5 +56,26 @@ body{
 
 #navbar ul li a:hover{ 
     color: tomato;
-    /* background-color: whitesmoke; */
 }
+
+/* Home Section Styling */
+#home{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 15px 165px;
+    color: white;    /*For heading and para*/
+    height: 397px;
+}
+
+#home::before{
+    content: '';
+    background: url('../img/bg1.jpg') no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.89;
+}
+
